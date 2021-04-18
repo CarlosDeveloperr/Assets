@@ -80,3 +80,60 @@ text-align: center;
 .main-header section ul li{
   margin: 0 10px;
 }
+
+/*Footer CSS*/
+/*Primera Seccion CSS*/
+.main-footer{
+  background-color: #C87B4D;
+  font-family:'Raleway',sans-serif;
+  display:flex;
+  flex-direction: column;
+}
+
+.main-footer .primeraSection{
+display: flex;
+justify-content: space-between;/*Espacio entre Iconos y palabras*/
+padding: 30px 0px;
+}
+
+.main-footer .primeraSection .Logos{
+   padding-right: 60px;
+}
+.main-footer .primeraSection .Logos img{
+    padding: 10px 10px;
+}
+
+.main-footer .Negritas {
+  display: flex;
+  font-weight: bold;
+}
+
+.main-footer .Negritas li{
+  padding: 10px 50px;/* Espacio entre palabras primera section*/
+}
+
+/*Segunda Seccion  CSS*/
+
+.main-footer .segundaSection {
+ display: flex;
+ justify-content: space-between;
+}
+.main-footer .segundaSection .RedesSociales{
+  display: flex;
+}
+
+.main-footer .segundaSection .RedesSociales li{
+  padding:10px 30px ;
+}
+.main-footer .segundaSection .RedesSociales p {
+  font-weight: bold;
+}
+.main-footer .segundaSection .techTalent{
+   display: flex;
+   padding-right: 40px;
+}
+
+/*Tercera Seccion  CSS*/
+.main-footer .terceraSection{
+  text-align: center;
+}
