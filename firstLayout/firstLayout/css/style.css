@@ -7,6 +7,14 @@
 body{
   font-family:'Raleway',sans-serif
 }
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
 
 .main-header{
   background: linear-gradient(83.1deg, rgba(154, 46, 52, 0) -0.08%, #C87B4D 93.59%),url('../assets/banner.jpg'),no-repeat,fixed;
@@ -25,15 +33,6 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-ul{
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
 
 .main-header nav ul{
   display: flex;
@@ -80,7 +79,82 @@ text-align: center;
 .main-header section ul li{
   margin: 0 10px;
 }
+/*----------------------------------------------------------------------*/
+/*Main CSS*/
+.main-Section{
+ display:flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+ justify-content: space-around;
+}
+.main-Section .articles{
+  background:white;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 8px; 
+  padding: 10px 10px 20px 10px;
+}
 
+.main-Section .div1{
+  padding: 10px 20px 10px 20px;
+}
+.main-Section .div2{
+display: flex;
+justify-content: space-between;
+padding:10px 20px 10px 20px;
+}
+
+.main-Section .div3{
+  padding:10px 20px 10px 20px;
+}
+
+.main-Section  .div3 nav {
+display: flex;
+flex-direction: row;
+}
+
+.main-Section .div3 .iconoTexto{
+  display: flex;
+  justify-content: space-between;
+}
+.main-Section .div3 .barraBotones{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/
+/*Clases prefabricadas para botones*/
+.main-Section .div3 .barraBotones .btnDev{
+display: inline-block;
+width: 150px;
+padding: 10px;
+text-align: center;
+background: #F2994A;
+border-radius: 16px;
+}
+.main-Section .div3 .barraBotones .btnMVP{
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background:#221413;
+  border-radius: 16px;
+}
+.main-Section  .div3 .barraBotones .btnUX{
+    display: inline-block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background: #F5CC6A;
+  border-radius: 16px;
+  
+}
+
+/*----------------------------------------------------------------------*/
 /*Footer CSS*/
 /*Primera Seccion CSS*/
 .main-footer{
